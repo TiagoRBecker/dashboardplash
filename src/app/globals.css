@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  
+  .swal2-popup {
+    margin-left: 320px;
+  }
+.showMenu {
+  width: 350px;
+  height: 100%;
+  background-color: #14b7a1;
+ z-index: 999;
+  transform: translateX(0px);
+  transition: all ease-in-out 0.8s;
+  position: fixed;
+}
+
+.hideMenu {
+  position: fixed;
+  width: 350px;
+  height: 100%;
+  background-color: #14b7a1;
+z-index: 999;
+  transform: translateX(-330px);
+  transition: all ease-in-out 0.8s;
+}
+
+
+
